@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.box button{
+    border: 1px solid greenyellow;
+    padding: 5rem;
+    border-radius: 20px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+main input{
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+main button{
+    padding: 10px;
+    border-radius: 5px;
+}
